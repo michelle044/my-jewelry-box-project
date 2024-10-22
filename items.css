@@ -1,0 +1,90 @@
+/* General styling */
+body {
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #eef3fc; /* Light blue background */
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  background-color: #a3b0e2;
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Grid container for items */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+/* Each item styling (circle shape) */
+.item {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.1); /* Zoom in effect on hover */
+  background-color: #b8c4e9;
+}
+
+/* Link style inside the item */
+.item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Image inside the first circle */
+.item img {
+  width: 60px; /* Adjust the size of the image */
+  height: auto;
+}
+
+/* For empty circles, background color only */
+.item a:empty {
+  background-color: transparent;
+}
+.back-button {
+  position: absolute;
+  top: 20px; /* Adjust this value to position vertically */
+  right: 20px; /* Adjust this value to position horizontally */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ccc;
+}
+

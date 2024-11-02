@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #A5BCE6;
+  background-color: #9cbbf4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color: #A5BCE6;
+  background-color: #9cbbf4;
   padding: 30px;
   border-radius: 0px;
   text-align: center;

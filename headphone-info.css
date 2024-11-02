@@ -14,8 +14,8 @@ body {
 }
 
 .clickable-image {
-  width: 150px;
-  margin-bottom: 20px;
+  width: 550px;
+  margin-bottom: 40px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -26,7 +26,7 @@ body {
 
 .text-content p {
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 20px;
   color: #444;
 }
 back-button {

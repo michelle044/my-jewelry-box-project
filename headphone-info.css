@@ -13,14 +13,6 @@ body {
   height: 100vh;
 }
 
-.container {
-  background-color: #8894FF;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
 .clickable-image {
   width: 150px;
   margin-bottom: 20px;

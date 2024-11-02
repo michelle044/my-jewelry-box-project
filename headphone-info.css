@@ -12,16 +12,16 @@ body {
   align-items: center;
   height: 100vh;
 }
-container {
-  background-color: #8894FF;
-  padding: 30px;
-  border-radius: 15px;
+.container {
+  background-color: #9ea7f4;
+  padding: 40px;
+  border-radius: 0px;
   text-align: center;
 }
 
 .clickable-image {
   width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }

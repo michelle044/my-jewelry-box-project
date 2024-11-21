@@ -38,7 +38,15 @@ body {
     border-radius: 5px;
     margin: 20px;
   }
-  
+  /* Container styles are already set as in your original code */
+
+.image {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Keeps aspect ratio */
+  margin-bottom: 20px; /* Spacing below the image */
+  border-radius: 10px; /* Optional: round edges */
+}
+
   
 
   

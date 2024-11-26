@@ -22,7 +22,7 @@ h1 {
   font-size: 2rem;
   color: #ffffff;
   margin-bottom: 20px;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Alagard', cursive;
   font-weight: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -72,4 +72,5 @@ h1 {
 .back-button:hover {
   background-color: #ccc;
 }
+
 
